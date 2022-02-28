@@ -6,10 +6,10 @@ According to the calculation, the distribution of mission rewards is as follows(
 
 Rank      | Number
 --------- | ---------
-Gold      | 126
+Gold      | 128
 Silver    | 18
-Blonze    | 31
-None      | 73
+Blonze    | 30
+None      | 72
 Total     | 248
 
 To apply the fomula defined in ([neuron testnet README.md](https://github.com/cosmos-gaminghub/testnets/blob/master/neuron-1/README.md)), each rank's mission clear reward is as follows.
@@ -17,9 +17,9 @@ To apply the fomula defined in ([neuron testnet README.md](https://github.com/co
 
 Rank      | Mission Clear Reward ($GAME)
 --------- | ---------
-Gold      | 10062.893082
-Silver    |  8050.314465
-Blonze    |  6037.735849
+Gold      |  9975.062344
+Silver    |  7980.049875
+Blonze    |  5985.037406
 
 ### Spam Txs Ranker Reward
 
