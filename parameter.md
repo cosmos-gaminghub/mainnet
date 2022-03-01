@@ -9,11 +9,9 @@ slash_fraction_downtime| 0.010000000000000000 | 0.000100000000000000
 voting_period          | 172800s              | 1209600s
 max_deposit_period     | 172800s              | 1209600s
 min_deposit            | 10000000             | 1000000000
-inflation              | 0.130000000000000000 | 1.0
-inflation_rate_change  | 0.130000000000000000 | 1.0
-inflation_max          | 0.200000000000000000 | 1.0
-inflation_min          | 0.070000000000000000 | 0.125000000000000000
-goal_bonded            | 0.670000000000000000 | 0.340000000000000000
+inflation              | 0.130000000000000000 | 0.300000000000000000
+inflation_max          | 0.200000000000000000 | 0.300000000000000000
+inflation_min          | 0.070000000000000000 | 0.300000000000000000
 send_enabled           | true                 | false
 receive_enabled        | true                 | false
 
@@ -23,9 +21,8 @@ receive_enabled        | true                 | false
 * Validators must avoid double signing. Otherwise 5% of bonded token will be slashed
 * `voting period` and `max deposit period` is 2weeks
 * Minimum deposit amount is 1000GAME
-* Inflation rate is 100% in the initial year
-* Inflation rate will be changed to 50%, 25%, 12.5% for every other year
-* Minimum inflation rate is 12.5%
+* Inflation rate is 30% in the initial year
+* Future inflation rate will be followed by the community's decision
 * IBC transfer is disabled at the genesis, it will be enabled through the governance voting
 
 ## Token Distribution
